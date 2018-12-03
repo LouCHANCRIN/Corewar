@@ -25,7 +25,8 @@
 * ./asm my_file.s
 * ./corewar [-v 0-8 -s] [-dump nbr_cycles] [[-n number] champ1.cor] ...
 
-#corewar option :#
+``corewar option :``
+
   -v x : 1 to 8 verbose level.
 
   -s : Graphic option with ncurse.
