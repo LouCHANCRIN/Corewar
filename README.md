@@ -25,11 +25,11 @@
 * ./asm my_file.s
 * ./corewar [-v 0-8 -s] [-dump nbr_cycles] [[-n number] champ1.cor] ...
 
-corewar option :
-  -v levelVerbose= 1 to 8 verbose level.
+#corewar option :#
+  -v x : 1 to 8 verbose level.
 
-  -s= Graphic option with ncurse.
+  -s : Graphic option with ncurse.
 
-  -dump nb_cycle= print the memory at nb_cycle then exit.
+  -dump nb_cycle : print the memory at nb_cycle then exit.
 
-  -n placeChamp champ.cor= give a place to champ in virtual machine.
+  -n placeChamp champ.cor : give a place to champ in virtual machine.
