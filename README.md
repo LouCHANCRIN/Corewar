@@ -20,8 +20,8 @@
 
 * make : create the binary
 * make clean : delete the .o file
-* make fclean : delete the .o and binary file
-* make re : use 'make fclean' and then use 'make'
+* make fclean : call fclean the .o and binary file and the library
+* make re : call fclean and make
 * ./asm my_file.s
 * ./corewar [-v 0-8 -s] [-dump nbr_cycles] [[-n number] champ1.cor] ...
 
